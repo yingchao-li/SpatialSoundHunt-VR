@@ -201,18 +201,6 @@ The report below was generated from a **real Unity session CSV** (Audio + Visual
 
 ![Report: KPIs, 3D trajectory, XZ heatmap, speed, angular velocity, orientation, target timeline](Analytics/docs/report_preview.png)
 
-What was verified, what was not:
 
-| Item | Status |
-|---|---|
-| Report from a real CSV via *Analyze Latest Session* (Mac, Python 3.15, numpy 2.5, pandas 3.1, plotly 7.2) | Verified |
-| Play Mode: finishing the 3 sources → CSV saved → Python started → report written | Verified (Console log above). The sources were selected with the Inspector debug menu, **not** a controller ray |
-| 45 Python tests | Pass, on **synthetic data**, in a Linux container (Python 3.13). Not run on the Mac `.venv` |
-| Browser opens automatically | Logged and the system browser window appeared; the page itself was not captured |
-| Controller-ray selection followed by analysis | Not tested |
-| "Data saved / Analysis finished" message in the world-space UI | Not confirmed |
-| Python failure path inside Unity | Not tested in Unity |
-| Second full run in the same Play session | Not completed |
-| Standalone build | Not tested |
 
 Full list, metric definitions, command-line options and known issues: **`Analytics/README.md`**.
