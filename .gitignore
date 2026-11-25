@@ -1,0 +1,44 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity-generated IDE files
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# IDE settings
+.idea/
+.vs/
+.vscode/
+*.user
+*.userprefs
+
+# Python environment and generated analytics output
+.venv/
+__pycache__/
+*.py[cod]
+reports/
+
+# Generated export archives
+_export/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+

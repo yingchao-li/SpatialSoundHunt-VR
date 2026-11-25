@@ -1,0 +1,8 @@
+# Python dependencies of the 6-DoF analytics (kept deliberately small: no scipy, no web framework).
+# Works on Python 3.9+ (pip picks the newest numpy/pandas that match the interpreter).
+numpy>=1.24
+pandas>=2.0
+plotly>=5.18
+
+# Only needed to run the unit tests (Analytics/tests):
+pytest>=7.4
